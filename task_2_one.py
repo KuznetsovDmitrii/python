@@ -102,6 +102,6 @@ alpha_range = [10, 15, 18, 20, 25]
 k3_range = [1, 5, 10, 50, 100]
 
 #решение в зависимости от заданных данных
-for Element in k3_range:
-    #Analys_K2(k_1,k_m_1,k_m_2,k_3_0,Element,Tolerance)
-    Analys_K2(k_1, k_m_1, k_m_2, Element, Alpha, Tolerance)
+for Element in alpha_range:
+    Analys_K2(k_1,k_m_1,k_m_2,k_3_0,Element,Tolerance)
+    #Analys_K2(k_1, k_m_1, k_m_2, Element, Alpha, Tolerance)
